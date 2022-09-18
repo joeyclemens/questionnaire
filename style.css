@@ -1,0 +1,18 @@
+body {
+  width: 100%;
+
+}
+
+
+.banner1 {
+  position: relative;
+  background-color: aqua;
+  width: 95%;
+
+}
+
+.banner1 h1 {
+  position: relative;
+  left: 5px;
+}
+
