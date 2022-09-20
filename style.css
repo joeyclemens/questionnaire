@@ -16,8 +16,8 @@ body {
 .banner1 h1 {
   position: relative;
   left: 5px;
-  font-family: Arial, Helvetica, sans-serif
   color: grey;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .form1 li {
