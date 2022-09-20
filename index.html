@@ -1586,10 +1586,8 @@
                   <option value="5">Other, please specify</option>
                 </select>
 
-                <select id="ethnicity1" class="d-none" name="ethnicity">
-                    <option value="one">one</option>
-                    <option value="two">two</option>
-                </select>
+                <label for  name="ethnicity1" id="ethnicity1" class="d-none">
+                    <input type="text" id="Name" name="Name" size="30" required></label>
 
                
 
@@ -1614,7 +1612,12 @@
 
         <script>
             function enable5(answer) {
-                console.log(answer);
+                console.log(answer.value);
+                if(answer.value == 5) {
+                    document.getElementById('ethnicity1').classList.remove('d-none');
+                } else {
+                    document.getElementById('ethnicity1').classList.add('d-none');
+                }
             };
                 
         </script>
