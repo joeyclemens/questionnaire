@@ -5,12 +5,7 @@ body {
   
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  padding: 5px;
-  z-index: 1;
-}
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -44,6 +39,29 @@ body {
   background: #2290da;
   width: 0%;
 }
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-image: linear-gradient(#fff, #fff);
+
+  text-align: center;
+  height: 110px;
+  padding: 1px;
+  z-index: 2;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
 
 .intro {
   position: relative;
