@@ -76,7 +76,7 @@ top: 10px;
 
 .intro {
   position: relative;
-  left: 5px;
+  left: 15px;
   color: grey;
   font-family: Arial, Helvetica, sans-serif;
   width: 95%;
@@ -152,6 +152,11 @@ textarea {
   height: 300px;
   border-style: solid;
   border-color: #2290da;
+}
+
+.info1 {
+  position: relative;
+  left: 20px;
 }
 
 .info2 {
