@@ -53,7 +53,7 @@ input[type="radio"] {
   /* ...existing styles */
 
   display: grid;
-  place-content: left;
+  place-content: center;
 
   font: inherit;
   color: currentColor;
