@@ -1578,7 +1578,7 @@
 
                
                 <label for="ethnicity">What best describes your race/ethnicity?</label>
-                <select id="ethnicity" onchange="" name="ethnicity">
+                <select id="ethnicity" onchange="enable5(this)" name="ethnicity">
                   <option value="African-American">African-American</option>
                   <option value="Asian">Asian</option>
                   <option value="Hispanic">Hispanic</option>
@@ -1592,7 +1592,6 @@
                 </select>
 
                
-
 
               
             
@@ -1612,6 +1611,21 @@
             </div>
 
         </form>
+
+        <script>
+            function enable5(answer) {
+                console.log(answer);
+            };
+                
+        </script>
+
+
+
+
+
+
+
+
 
         <script>
             // When the user scrolls the page, execute myFunction
