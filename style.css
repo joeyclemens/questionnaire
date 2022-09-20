@@ -44,12 +44,11 @@ top: 10px;
   }
 
   .header img {
-    padding-top: 20px;
-  position: absolute;
+  position: fixed;
   max-width: 30%;  
   height: auto;   
   left: 5px;
-  top: 10%;
+ 
 }
 
 /* styles the scroll bar */
