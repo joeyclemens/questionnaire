@@ -19,8 +19,8 @@ body {
 }
 
 .header img {
-  position: absolute;
-  max-width: 80%;  
+  position: fixed;
+  max-width: 80%;  x
 height: auto;   
 left: 40px;
 top: 10px;
@@ -49,6 +49,7 @@ top: 10px;
   height: auto;   
   left: 5px;
  
+}
 }
 
 /* styles the scroll bar */
