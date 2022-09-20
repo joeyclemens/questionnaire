@@ -2,7 +2,7 @@ body {
   width: 100%;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  color: grey;
+  
 }
 
 
@@ -17,11 +17,13 @@ body {
   position: relative;
   left: 5px;
   font-family: Arial, Helvetica, sans-serif
+  color: grey;
 }
 
 .form1 li {
   font-family: Arial, Helvetica, sans-serif
   padding-bottom: 2px;
+  color: grey;
 }
 
 
