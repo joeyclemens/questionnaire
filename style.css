@@ -18,6 +18,14 @@ body {
   text-align: center;
 }
 
+.header img {
+  position: absolute;
+  max-width: 80%;  
+height: auto;   
+left: 40px;
+top: 10px;
+}
+
 
 /* styles the scroll bar */
 
