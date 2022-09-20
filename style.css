@@ -33,6 +33,9 @@ body {
   color: grey;
 }
 
+input {
+  display: inline-grid;
+}
 
 /*radio button style*/
 :root {
