@@ -69,7 +69,7 @@ input[type="radio"] {
   /* Not removed via appearance */
   margin: 0;
   /* ...existing styles */
-float: left;
+
   display: inline-grid;
   place-content: center;
 
