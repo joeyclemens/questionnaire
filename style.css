@@ -18,6 +18,9 @@ body {
   text-align: center;
 }
 
+
+/* styles the scroll bar */
+
 /* width */
 ::-webkit-scrollbar {
   width: 6px;
@@ -39,6 +42,7 @@ body {
   background: #555;
 }
 
+/* progress bar in header */ 
 .progress-container {
   width: 100%;
   height: 8px;
@@ -112,14 +116,27 @@ li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* css for the hidden text box */
 .d-none {
   display: none;
+}
+
+/* styles the input boxes */
+select {
+  border-style: solid;
+  border-color: #2290da;
+}
+
+input {
+  border-style: solid;
+  border-color: #2290da;
 }
 
 textarea {
   width: 80%;
   height: 300px;
+  border-style: solid;
+  border-color: #2290da;
 }
 
 .info2 {
