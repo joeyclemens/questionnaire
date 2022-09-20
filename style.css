@@ -5,6 +5,10 @@ body {
   
 }
 
+header {
+  position: fixed;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 6px;
