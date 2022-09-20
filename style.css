@@ -52,8 +52,7 @@ input[type="radio"] {
   margin: 0;
   /* ...existing styles */
 
-  display: grid;
-  place-content: center;
+
 
   font: inherit;
   color: currentColor;
