@@ -117,7 +117,9 @@ li {
   display: none;
 }
 
-
+textarea {
+  width: 150px;
+}
 
 /*radio button style*/
 :root {
