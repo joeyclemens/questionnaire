@@ -43,7 +43,6 @@ body {
 .header {
   position: fixed;
   width: 100%;
-  text-align: center;
   height: 110px;
   padding: 1px;
   z-index: 2;
