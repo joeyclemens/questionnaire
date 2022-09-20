@@ -43,8 +43,6 @@ body {
 .header {
   position: fixed;
   width: 100%;
-  background-image: linear-gradient(#fff, #fff);
-
   text-align: center;
   height: 110px;
   padding: 1px;
