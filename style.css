@@ -44,6 +44,7 @@ top: 10px;
   }
 
   .header img {
+    padding-top: 20px;
   position: absolute;
   max-width: 30%;  
   height: auto;   
