@@ -27,11 +27,21 @@ top: 10px;
 }
 
 @media screen and (max-width: 600px){
+
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+    padding-top: 5px;
+    width: 100%;
+  }
+  
   .header img {
   position: absolute;
   max-width: 30%;  
   height: auto;   
-  left: 10px;
+  left: 5px;
   top: 30%;
 }
 
