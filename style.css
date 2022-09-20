@@ -113,7 +113,9 @@ li {
 }
 
 
-
+.d-none {
+  display: none;
+}
 
 
 
