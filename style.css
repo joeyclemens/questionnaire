@@ -122,6 +122,11 @@ textarea {
   height: 300px;
 }
 
+form3 {
+  position: relative;
+  left: 10px;
+}
+
 /*radio button style*/
 :root {
   --form-control-color: #0096FF;
