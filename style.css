@@ -33,9 +33,11 @@ body {
   color: grey;
 }
 
-input {
-  display: inline-grid;
+label {
+  float: left;
 }
+
+
 
 /*radio button style*/
 :root {
@@ -67,7 +69,7 @@ input[type="radio"] {
   /* Not removed via appearance */
   margin: 0;
   /* ...existing styles */
-
+float: left;
   display: inline-grid;
   place-content: center;
 
