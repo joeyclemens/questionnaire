@@ -122,9 +122,14 @@ textarea {
   height: 300px;
 }
 
+.info2 {
+  position: relative;
+  left: 20px;
+}
+
 .form3 {
   position: relative;
-  left: 10px;
+  left: 20px;
 }
 
 /*radio button style*/
