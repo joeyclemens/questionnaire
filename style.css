@@ -89,7 +89,8 @@ body {
 
 .banner2 {
   position: relative;
-  background-color: #f78d3b;
+  background-color: #fcbb88;
+  opacity: .8;
   width: 100%;
 
 }
