@@ -171,6 +171,7 @@ select {
 input {
   border-style: solid;
   border-color: #2290da;
+  border-radius: 5px;
 }
 
 textarea {
@@ -178,6 +179,7 @@ textarea {
   height: 300px;
   border-style: solid;
   border-color: #2290da;
+  border-radius: 5px;
 }
 
 .info1 {
