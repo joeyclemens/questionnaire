@@ -165,6 +165,7 @@ li {
 select {
   border-style: solid;
   border-color: #2290da;
+  border-radius: 5px;
 }
 
 input {
