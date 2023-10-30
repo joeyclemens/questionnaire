@@ -3,6 +3,7 @@ body {
   background-color: white;
   font-family: 'HelveticaNeue_Light';
   margin: 0;
+  color: #7C99AD;
 }
 
 @font-face {
@@ -54,6 +55,11 @@ body {
 
 }
 
+.backyougo {
+  position: fixed;
+  right: 10px;
+
+}
 @media screen and (max-width: 600px){
 
 
@@ -155,12 +161,14 @@ body {
   width: 90%;
   border-radius: 50px;
   left: 5px;
+  color: #0d1b1c;
 }
 
 .banner1 h1 {
   position: relative;
   left: 10px;
  font-family: 'HelveticaNeue_Light';
+ color: #0d1b1c;
 }
 
 li {
@@ -185,6 +193,7 @@ li {
   position: relative;
   left: 10px;
  font-family: 'HelveticaNeue_Light';
+ color: #0d1b1c;
 }
 
 .banner3 {
@@ -199,6 +208,7 @@ li {
   position: relative;
   left: 10px;
  font-family: 'HelveticaNeue_Light';
+ color: #0d1b1c;
 }
 
 .banner4 {
@@ -254,6 +264,8 @@ textarea {
 .form1 {
   position: relative;
   left: 20px;
+  font-family: 'HelveticaNeue_Light';
+ 
 }
 
 .form1 textarea {
@@ -267,6 +279,7 @@ textarea {
 
 .form2 {
   position: relative;
+  font-family: 'HelveticaNeue_Light';
   
 }
 
@@ -282,8 +295,9 @@ textarea {
 
 .form3 {
   position: relative;
-  left: 20px;
-
+  left: 40px;
+  font-family: 'HelveticaNeue_Light';
+  
 }
 
 .form3 textarea {
@@ -403,7 +417,7 @@ color: white;
 
 .header1 img {
 position: fixed;
-max-width: 80%;  x
+max-width: 80%;  
 height: auto;   
 left: 40px;
 top: 10px;
