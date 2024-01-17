@@ -1,11 +1,672 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=http://mjmsurvey.rf.gd/Staff%20survey/index.html">
-    <title>Redirecting...</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Staff Survey</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <div class="header">
+        <img src="images/image001.png" alt="mjm logo">
+
+        <h1>Post Occupancy Evaluation of <br>
+            Tessa Jowell Health centre. <br>Staff Survey </h1>
+        <p>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+            <div class="bigline"></div>
+        </div>
+        </p>
+
+
+    </div>
+
+    <div class="intro">
+        <p>This questionnaire asks questions about your perception of the work
+            environment and your work experience at Tessa Jowell Health centre.
+            Please select the number that most closely represents your level of agreement
+            with each statement below. We are interested in your honest opinions, whether
+            they are negative or positive.
+            Thank you in advance for your time and opinions.
+        </p>
+    </div>
+
+
+
+    <form name="staff" action="thankyou.html" method="POST" data-netlify="true">
+
+
+        <div class="form3">
+
+            <div class="banner4">
+                <h1>Demographic Information</h1>
+            </div>
+
+
+            <div class="info2">
+                <h4>These questions are for statistical purpose only. Please mark or write down the responses.</h4>
+            </div>
+
+            <div class="form3">
+
+
+                <label for="current-position">What is your current role/Job title?<br>
+                    <textarea id="current-position" type="textarea" name="current-position" required
+                        placeholder="Describe your current position"></textarea>
+                </label>
+
+   
+                
+                  <br><br>             <br><br>
+
+                <label for="department">What department do you work in?<br>
+                    <textarea id="department" type="textarea" name="department" required
+                        placeholder="What department do you work in?"></textarea>
+                </label>
+            </div>
+               
+
+            <div class="banner3">
+                <h1>Clinic environment</h1>
+            </div>
+
+
+
+            <div class="info2">
+                <h4>To what extent do you agree or disagree with the following statements on a scale of 1 to 5 where 1 =
+                    strongly disagree and 5 = strongly agree?</h4>
+            </div>
+
+
+
+            <div class="form1">
+                <ol>
+                    
+                    <label for="The_location_of_the_heath_centre_was_convenient">
+                        <li>The location of the heath centre was convenient for me to get to</li>
+                        <input type="radio" id="question2" name="The_location_of_the_heath_centre_was_convenient" value="1"
+                            required>
+                        <label for="13">1</label>
+                        <input type="radio" id="question2" name="The_location_of_the_heath_centre_was_convenient" value="2">
+                        <label for="14">2</label>
+                        <input type="radio" id="question2" name="The_location_of_the_heath_centre_was_convenient" value="3">
+                        <label for="15">3</label>
+                        <input type="radio" id="question2" name="The_location_of_the_heath_centre_was_convenient" value="4">
+                        <label for="16">4</label>
+                        <input type="radio" id="question2" name="The_location_of_the_heath_centre_was_convenient" value="5">
+                        <label for="17">5</label>
+                        <input type="radio" id="question2" name="The_location_of_the_heath_centre_was_convenient" value="N/A">
+                        <label for="18">N/A</label>
+
+                    </label>
+
+                    <br><br>
+
+                    <label for="It_is_easy_to_find_a_member_of_staff">
+                        <li>It is easy for families/carers to find a member of staff when needed</li>
+                        <input type="radio" id="question2" name="It_is_easy_to_find_a_member_of_staff" value="1"
+                            required>
+                        <label for="13">1</label>
+                        <input type="radio" id="question2" name="It_is_easy_to_find_a_member_of_staff" value="2">
+                        <label for="14">2</label>
+                        <input type="radio" id="question2" name="It_is_easy_to_find_a_member_of_staff" value="3">
+                        <label for="15">3</label>
+                        <input type="radio" id="question2" name="It_is_easy_to_find_a_member_of_staff" value="4">
+                        <label for="16">4</label>
+                        <input type="radio" id="question2" name="It_is_easy_to_find_a_member_of_staff" value="5">
+                        <label for="17">5</label>
+                        <input type="radio" id="question2" name="It_is_easy_to_find_a_member_of_staff" value="N/A">
+                        <label for="18">N/A</label>
+
+                    </label>
+
+                    <br><br>
+
+
+                    <label for="The_layout_of_the_building_works_well">
+                        <li>The layout and clinical adjacencies of the building works well overall</li>
+                        <input type="radio" id="question3" name="The_layout_of_the_building_works_well" value="1"
+                            required>
+                        <label for="25">1</label>
+                        <input type="radio" id="question3" name="The_layout_of_the_building_works_well" value="2">
+                        <label for="26">2</label>
+                        <input type="radio" id="question3" name="The_layout_of_the_building_works_well" value="3">
+                        <label for="27">3</label>
+                        <input type="radio" id="question3" name="The_layout_of_the_building_works_well" value="4">
+                        <label for="28">4</label>
+                        <input type="radio" id="question3" name="The_layout_of_the_building_works_well" value="5">
+                        <label for="29">5</label>
+                        <input type="radio" id="question3" name="The_layout_of_the_building_works_well" value="N/A">
+                        <label for="30">N/A</label>
+                    </label>
+
+                    <br><br>
+
+                    <label for="The_design_of_xxx_space_works_well">
+                        <li>The design of the department works well overall</li>
+                        <input type="radio" id="question4" name="The_design_of_xxx_space_works_well" value="1" required>
+                        <label for="31">1</label>
+                        <input type="radio" id="question4" name="The_design_of_xxx_space_works_well" value="2">
+                        <label for="32">2</label>
+                        <input type="radio" id="question4" name="The_design_of_xxx_space_works_well" value="3">
+                        <label for="33">3</label>
+                        <input type="radio" id="question4" name="The_design_of_xxx_space_works_well" value="4">
+                        <label for="34">4</label>
+                        <input type="radio" id="question4" name="The_design_of_xxx_space_works_well" value="5">
+                        <label for="35">5</label>
+                        <input type="radio" id="question4" name="The_design_of_xxx_space_works_well" value="N/A">
+                        <label for="36">N/A</label>
+
+                    </label>
+                    <br><br>
+
+
+
+                    <label for="The_building_is_easy_to_navigate">
+
+                        <li>The building is easy to navigate with easy to follow signage</li>
+                        <input type="radio" id="question5" name="The_building_is_easy_to_navigate" value="1" required>
+                        <label for="43">1</label>
+                        <input type="radio" id="question5" name="The_building_is_easy_to_navigate" value="2">
+                        <label for="44">2</label>
+                        <input type="radio" id="question5" name="The_building_is_easy_to_navigate" value="3">
+                        <label for="45">3</label>
+                        <input type="radio" id="question5" name="The_building_is_easy_to_navigate" value="4">
+                        <label for="46">4</label>
+                        <input type="radio" id="question5" name="The_building_is_easy_to_navigate" value="5">
+                        <label for="47">5</label>
+                        <input type="radio" id="question5" name="The_building_is_easy_to_navigate" value="N/A">
+                        <label for="48">N/A</label>
+                    </label>
+
+                    <label for="I_can_clearly_observe_patients_from_where_I_work">
+                        <li>I can clearly observe patients from where I work</li>
+                        <input type="radio" id="question5" name="I_can_clearly_observe_patients_from_where_I_work"
+                            value="1" required>
+                        <label for="25">1</label>
+                        <input type="radio" id="question5" name="I_can_clearly_observe_patients_from_where_I_work"
+                            value="2">
+                        <label for="26">2</label>
+                        <input type="radio" id="question5" name="I_can_clearly_observe_patients_from_where_I_work"
+                            value="3">
+                        <label for="27">3</label>
+                        <input type="radio" id="question5" name="I_can_clearly_observe_patients_from_where_I_work"
+                            value="4">
+                        <label for="28">4</label>
+                        <input type="radio" id="question5" name="I_can_clearly_observe_patients_from_where_I_work"
+                            value="5">
+                        <label for="29">5</label>
+                        <input type="radio" id="question5" name="I_can_clearly_observe_patients_from_where_I_work"
+                            value="N/A">
+                        <label for="30">N/A</label>
+                    </label>
+
+                    <label for="I_never_feel_isolated_or_alone_in_the_department">
+                        <li>I never feel isolated or alone in the department</li>
+                        <input type="radio" id="question6" name="I_never_feel_isolated_or_alone_in_the_department"
+                            value="1" required>
+                        <label for="31">1</label>
+                        <input type="radio" id="question6" name="I_never_feel_isolated_or_alone_in_the_department"
+                            value="2">
+                        <label for="32">2</label>
+                        <input type="radio" id="question6" name="I_never_feel_isolated_or_alone_in_the_department"
+                            value="3">
+                        <label for="33">3</label>
+                        <input type="radio" id="question6" name="I_never_feel_isolated_or_alone_in_the_department"
+                            value="4">
+                        <label for="34">4</label>
+                        <input type="radio" id="question6" name="I_never_feel_isolated_or_alone_in_the_department"
+                            value="5">
+                        <label for="35">5</label>
+                        <input type="radio" id="question6" name="I_never_feel_isolated_or_alone_in_the_department"
+                            value="N/A">
+                        <label for="36">N/A</label>
+                    </label>
+
+                    <label for="There_is_easy_access_to_clinical_support_rooms">
+                        <li>There is easy access to clinical support rooms e.g. clean & dirty utilities</li>
+                        <input type="radio" id="question7" name="There_is_easy_access_to_clinical_support_rooms"
+                            value="1" required>
+                        <label for="37">1</label>
+                        <input type="radio" id="question7" name="There_is_easy_access_to_clinical_support_rooms"
+                            value="2">
+                        <label for="38">2</label>
+                        <input type="radio" id="question7" name="There_is_easy_access_to_clinical_support_rooms"
+                            value="3">
+                        <label for="39">3</label>
+                        <input type="radio" id="question7" name="There_is_easy_access_to_clinical_support_rooms"
+                            value="4">
+                        <label for="40">4</label>
+                        <input type="radio" id="question7" name="There_is_easy_access_to_clinical_support_rooms"
+                            value="5">
+                        <label for="41">5</label>
+                        <input type="radio" id="question7" name="There_is_easy_access_to_clinical_support_rooms"
+                            value="N/A">
+                        <label for="42">N/A</label>
+                    </label>
+
+                    <label for="There_is_easy_access_to_a_staff_base/office/computer_workstation">
+                        <li>There is easy access to a staff base/office/computer workstation</li>
+                        <input type="radio" id="question8"
+                            name="There_is_easy_access_to_a_staff_base/office/computer_workstation" value="1" required>
+                        <label for="43">1</label>
+                        <input type="radio" id="question8"
+                            name="There_is_easy_access_to_a_staff_base/office/computer_workstation" value="2">
+                        <label for="44">2</label>
+                        <input type="radio" id="question8"
+                            name="There_is_easy_access_to_a_staff_base/office/computer_workstation" value="3">
+                        <label for="45">3</label>
+                        <input type="radio" id="question8"
+                            name="There_is_easy_access_to_a_staff_base/office/computer_workstation" value="4">
+                        <label for="46">4</label>
+                        <input type="radio" id="question8"
+                            name="There_is_easy_access_to_a_staff_base/office/computer_workstation" value="5">
+                        <label for="47">5</label>
+                        <input type="radio" id="question8"
+                            name="There_is_easy_access_to_a_staff_base/office/computer_workstation" value="N/A">
+                        <label for="48">N/A</label>
+                    </label>
+
+                    <label for="There_is_easy_access_to_staff_toilets">
+                        <li>There is easy access to staff toilets</li>
+                        <input type="radio" id="question9" name="There_is_easy_access_to_staff_toilets" value="1"
+                            required>
+                        <label for="49">1</label>
+                        <input type="radio" id="question9" name="There_is_easy_access_to_staff_toilets" value="2">
+                        <label for="50">2</label>
+                        <input type="radio" id="question9" name="There_is_easy_access_to_staff_toilets" value="3">
+                        <label for="51">3</label>
+                        <input type="radio" id="question9" name="There_is_easy_access_to_staff_toilets" value="4">
+                        <label for="52">4</label>
+                        <input type="radio" id="question9" name="There_is_easy_access_to_staff_toilets" value="5">
+                        <label for="53">5</label>
+                        <input type="radio" id="question9" name="There_is_easy_access_to_staff_toilets" value="N/A">
+                        <label for="54">N/A</label>
+                    </label>
+
+
+
+                    <label for="There_are_adequate_staff_rest_facilities">
+                        <li>There are adequate staff rest facilities and they are easy to access</li>
+                        <input type="radio" id="question10" name="There_are_adequate_staff_rest_facilities" value="1"
+                            required>
+                        <label for="55">1</label>
+                        <input type="radio" id="question10" name="There_are_adequate_staff_rest_facilities" value="2">
+                        <label for="56">2</label>
+                        <input type="radio" id="question10" name="There_are_adequate_staff_rest_facilities" value="3">
+                        <label for="57">3</label>
+                        <input type="radio" id="question10" name="There_are_adequate_staff_rest_facilities" value="4">
+                        <label for="58">4</label>
+                        <input type="radio" id="question10" name="There_are_adequate_staff_rest_facilities" value="5">
+                        <label for="59">5</label>
+                        <input type="radio" id="question10" name="There_are_adequate_staff_rest_facilities" value="N/A">
+                        <label for="60">N/A</label>
+                    </label>
+                    <label for="The_clinic_rooms_provide_privacy_and_confidentiality">
+                        <li>The clinic rooms provide privacy and confidentiality</li>
+                        <input type="radio" id="question11" name="The_clinic_rooms_provide_privacy_and_confidentiality"
+                            value="1" required>
+                        <label for="61">1</label>
+                        <input type="radio" id="question11" name="The_clinic_rooms_provide_privacy_and_confidentiality"
+                            value="2">
+                        <label for="62">2</label>
+                        <input type="radio" id="question11" name="The_clinic_rooms_provide_privacy_and_confidentiality"
+                            value="3">
+                        <label for="63">3</label>
+                        <input type="radio" id="question11" name="The_clinic_rooms_provide_privacy_and_confidentiality"
+                            value="4">
+                        <label for="64">4</label>
+                        <input type="radio" id="question11" name="The_clinic_rooms_provide_privacy_and_confidentiality"
+                            value="5">
+                        <label for="65">5</label>
+                        <input type="radio" id="question11" name="The_clinic_rooms_provide_privacy_and_confidentiality"
+                            value="N/A">
+                        <label for="66">N/A</label>
+                    </label>
+                    <label for="There_is_sufficient_space_in_the_clinic_rooms">
+                        <li>There is sufficient space in the clinic rooms for the required activities</li>
+                        <input type="radio" id="question12" name="There_is_sufficient_space_in_the_clinic_rooms"
+                            value="1" required>
+                        <label for="67">1</label>
+                        <input type="radio" id="question12" name="There_is_sufficient_space_in_the_clinic_rooms"
+                            value="2">
+                        <label for="68">2</label>
+                        <input type="radio" id="question12" name="There_is_sufficient_space_in_the_clinic_rooms"
+                            value="3">
+                        <label for="69">3</label>
+                        <input type="radio" id="question12" name="There_is_sufficient_space_in_the_clinic_rooms"
+                            value="4">
+                        <label for="70">4</label>
+                        <input type="radio" id="question12" name="There_is_sufficient_space_in_the_clinic_rooms"
+                            value="5">
+                        <label for="71">5</label>
+                        <input type="radio" id="question12" name="There_is_sufficient_space_in_the_clinic_rooms"
+                            value="N/A">
+                        <label for="72">N/A</label>
+                    </label>
+                    <label for="The_equipment/furniture_in_the_clinic_rooms_is_of_a_high_standard">
+                        <li>The equipment/furniture in the clinic rooms meets my needs and is of a suitable quality</li>
+                        <input type="radio" id="question13"
+                            name="The_equipment/furniture_in_the_clinic_rooms_is_of_a_high_standard" value="1" required>
+                        <label for="73">1</label>
+                        <input type="radio" id="question13"
+                            name="The_equipment/furniture_in_the_clinic_rooms_is_of_a_high_standard" value="2">
+                        <label for="74">2</label>
+                        <input type="radio" id="question13"
+                            name="The_equipment/furniture_in_the_clinic_rooms_is_of_a_high_standard" value="3">
+                        <label for="75">3</label>
+                        <input type="radio" id="question13"
+                            name="The_equipment/furniture_in_the_clinic_rooms_is_of_a_high_standard" value="4">
+                        <label for="76">4</label>
+                        <input type="radio" id="question13"
+                            name="The_equipment/furniture_in_the_clinic_rooms_is_of_a_high_standard" value="5">
+                        <label for="77">5</label>
+                        <input type="radio" id="question13"
+                            name="The_equipment/furniture_in_the_clinic_rooms_is_of_a_high_standard" value="N/A">
+                        <label for="78">N/A</label>
+                    </label>
+                    
+
+                    <br><br>
+
+                    <label for="features_that_you_liked_or_disliked">
+                        <li>Were there any features that you liked or disliked in your department?</li>
+                        <textarea id="features_that_you_liked_or_disliked" type="textarea"
+                            name="features_that_you_liked_or_disliked" required
+                            placeholder="Were there any features that you liked or disliked in your department?"></textarea>
+                    </label>
+
+                    <label for="What_changes_would_you_make">
+                        <li>What changes would you make to the your department environment if you were able to?</li>
+                        <textarea id="What_changes_would_you_make" type="textarea" name="What_changes_would_you_make"
+                            required
+                            placeholder="What changes would you make to the your department environment if you were able to?"></textarea>
+                    </label>
+
+
+
+                    <label for="rate_the_access_control_to_the_department">
+                        <li>How would you rate the access control to your department with 1 being very poor and 5 being exceptional</li>
+                        <input type="radio" id="question15" name="rate_the_access_control_to_the_department" value="1"
+                            required>
+                        <label for="79">1</label>
+                        <input type="radio" id="question15" name="rate_the_access_control_to_the_department" value="2">
+                        <label for="80">2</label>
+                        <input type="radio" id="question15" name="rate_the_access_control_to_the_department" value="3">
+                        <label for="81">3</label>
+                        <input type="radio" id="question15" name="rate_the_access_control_to_the_department" value="4">
+                        <label for="82">4</label>
+                        <input type="radio" id="question15" name="rate_the_access_control_to_the_department" value="5">
+                        <label for="83">5</label>
+                        <input type="radio" id="question15" name="rate_the_access_control_to_the_department"
+                            value="N/A">
+                        <label for="84">N/A</label>
+                    </label>
+
+
+
+                    <label for="internal_temperature">
+                        <li>How would you rate the internal temperature?</li>
+                        <input type="radio" id="question15" name="internal_temperature" value="1" required>
+                        <label for="79">Too hot</label>
+                        <input type="radio" id="question15" name="internal_temperature" value="2">
+                        <label for="80">Too cold</label>
+                        <input type="radio" id="question15" name="internal_temperature" value="3">
+                        <label for="81">Just right</label>
+                        <input type="radio" id="question15" name="internal_temperature" value="4">
+                        <label for="82">Varies</label>
+                        <input type="radio" id="question15" name="internal_temperature" value="5">
+                        <label for="83">Not sure</label>
+                    </label>
+
+
+                    <label for="internal_lighting">
+                        <li>How would you rate the internal lighting</li>
+                        <input type="radio" id="question15" name="internal_lighting" value="1" required>
+                        <label for="79">Too bright</label>
+                        <input type="radio" id="question15" name="internal_lighting" value="2">
+                        <label for="80">Too dull</label>
+                        <input type="radio" id="question15" name="internal_lighting" value="3">
+                        <label for="81">Just right</label>
+                        <input type="radio" id="question15" name="internal_lighting" value="4">
+                        <label for="82">Varies</label>
+                        <input type="radio" id="question15" name="internal_lighting" value="5">
+                        <label for="83">Not sure</label>
+                    </label>
+
+                  
+                    <label for="internal_sound_proofing">
+                        <li>How would you rate the internal sound proofing</li>
+                        <input type="radio" id="question15" name="internal_sound_proofing" value="1" required>
+                        <label for="79">Too noisy</label>
+                        <input type="radio" id="question15" name="internal_sound_proofing" value="2">
+                        <label for="80">Too quiet</label>
+                        <input type="radio" id="question15" name="internal_sound_proofing" value="3">
+                        <label for="81">Just right</label>
+                        <input type="radio" id="question15" name="internal_sound_proofing" value="4">
+                        <label for="82">Varies</label>
+                        <input type="radio" id="question15" name="internal_sound_proofing" value="5">
+                        <label for="83">Not sure</label>
+                    </label>
+
+
+                    <label for="What_element_positive_impact_patients/carers">
+                        <li>What single element of the building has had a positive impact on patients/carers?</li>
+                        <textarea id="What_element_positive_impact_patients/carers" type="textarea"
+                            name="What_element_positive_impact_patients/carers" required
+                            placeholder="What single element of the building has had a positive impact on patients/carers?"></textarea>
+                    </label>
+
+                    <label for="What_element_negative_impact_patients/carers">
+                        <li>What single element of the building has had a negative impact on patients/carers?</li>
+                        <textarea id="What_element_negative_impact_patients/carers" type="textarea"
+                            name="What_element_negative_impact_patients/carers" required
+                            placeholder="What single element of the building has had a negative impact on patients/carers?"></textarea>
+                    </label>
+
+                    <label for="What_element_positive_impact_on_your_work">
+                        <li>What single element of your department has had a positive impact on your work?</li>
+                        <textarea id="What_element_positive_impact_on_your_work" type="textarea"
+                            name="What_element_positive_impact_on_your_work" required
+                            placeholder="What single element of your department has had a positive impact on your work?"></textarea>
+                    </label>
+
+                    <label for="What_element_negative_impact_on_your_work">
+                        <li>What single element of your department has had a negative impact on your work?</li>
+                        <textarea id="What_element_negative_impact_on_your_work" type="textarea"
+                            name="What_element_negative_impact_on_your_work" required
+                            placeholder="What single element of your department has had a negative impact on your work?"></textarea>
+                    </label>
+
+                    <label for="rate_the_enviroment_for_patients">
+                        <li>How would you rate your department environment overall for patients with 1 being very poor and 5 being exceptional</li>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_patients" value="1" required>
+                        <label for="79">1</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_patients" value="2">
+                        <label for="80">2</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_patients" value="3">
+                        <label for="81">3</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_patients" value="4">
+                        <label for="82">4</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_patients" value="5">
+                        <label for="83">5</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_patients" value="N/A">
+                        <label for="84">N/A</label>
+                    </label>
+
+                    <label for="rate_the_enviroment_for_families/carers">
+                        <li>How would you rate your department environment overall for families/carers with 1 being very poor and 5 being exceptional</li>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_families/carers" value="1"
+                            required>
+                        <label for="79">1</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_families/carers" value="2">
+                        <label for="80">2</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_families/carers" value="3">
+                        <label for="81">3</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_families/carers" value="4">
+                        <label for="82">4</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_families/carers" value="5">
+                        <label for="83">5</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_families/carers" value="N/A">
+                        <label for="84">N/A</label>
+                    </label>
+
+                    <label for="rate_the_enviroment_for_staff">
+                        <li>How would you rate your department environment overall for staff with 1 being very poor and 5 being exceptional</li>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_staff" value="1" required>
+                        <label for="79">1</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_staff" value="2">
+                        <label for="80">2</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_staff" value="3">
+                        <label for="81">3</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_staff" value="4">
+                        <label for="82">4</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_staff" value="5">
+                        <label for="83">5</label>
+                        <input type="radio" id="question15" name="rate_the_enviroment_for_staff" value="N/A">
+                        <label for="84">N/A</label>
+                    </label>
+
+
+
+                </ol>
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <br>
+            <div class="form2">
+                <div class="banner1">
+                    <h1>Thankyou</h1>
+                </div>
+
+                <div class="info3">
+                    <label for="aob">If you have additional comments, please write below <br>
+                </div>
+                <textarea id="aob" type="textarea" name="aob" required
+                    placeholder="Thankyou for your feedback"></textarea>
+                </label>
+
+                <br><br>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <input type="submit" value="Submit" class="box-button">
+
+
+
+            <br><br>
+
+    </form>
+
+    <script>
+        function enable5(answer) {
+            console.log(answer.value);
+            if (answer.value == 5) {
+                document.getElementById('Department1').classList.remove('d-none');
+            } else {
+                document.getElementById('Department1').classList.add('d-none');
+            }
+        };
+
+    </script>
+
+
+
+
+
+
+
+
+    <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const dropdownCheckbox = document.querySelector(".dropdown-checkbox");
+            const list = dropdownCheckbox.querySelector(".list-container");
+            const panel = dropdownCheckbox.querySelector(".panel-container");
+            const arrow = dropdownCheckbox.querySelector(".arrow-container");
+            const checkboxes = list.querySelectorAll("input[name=department]");
+            const currentSelection = document.querySelector("p.current-selection");
+
+            let currentSelectionSet = new Set();
+
+            function toggleDropdown(state = undefined) {
+                panel.classList.toggle("active", state);
+                list.classList.toggle("shown", state);
+                arrow.classList.toggle("opened", state);
+            }
+
+            function updateSelection(value) {
+                if (currentSelectionSet.has(value)) {
+                    currentSelectionSet.delete(value);
+                } else {
+                    currentSelectionSet.add(value);
+                }
+                selectedDepartments = [...currentSelectionSet];
+                document.getElementById('selectedDepartmentsInput').value = selectedDepartments.join(',');
+                // Send Custom Event "stylesChange"
+                currentSelection.dispatchEvent(new CustomEvent("stylesChange"));
+            }
+
+            panel.addEventListener("click", () => {
+                toggleDropdown();
+            });
+
+            checkboxes.forEach((checkbox) => {
+                checkbox.addEventListener("change", (event) => {
+                    const value = event.target.value;
+                    updateSelection(value);
+                    currentSelection.textContent = selectedDepartments.join(", ");
+                });
+            });
+
+            document.addEventListener("click", (event) => {
+                const target = event.target;
+                if (!dropdownCheckbox.contains(target)) {
+                    toggleDropdown(false);
+                }
+            });
+        });
+    </script>
+
+
+
+
 </body>
+
 </html>
